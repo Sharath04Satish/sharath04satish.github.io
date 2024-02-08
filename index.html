@@ -5,5 +5,16 @@
     </head>
     <body>
         <p>Hello world</p>
+        <form action="https://www.fitbit.com/oauth2/authorize" method="GET">
+            <input type="hidden" name="client_id" value="23RVB4" />
+            <input type="hidden" name="response_type" value="code" />
+            <input
+                type="hidden"
+                name="redirect_uri"
+                value="https://sharath04satish.github.io/"
+            />
+            <input type="hidden" name="scope" value="sleep" />
+            <button type="submit">Authorize</button>
+        </form>
     </body>
 </html>
